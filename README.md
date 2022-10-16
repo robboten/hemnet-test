@@ -1,4 +1,12 @@
 # test_hemnet
 Just some tests to learn about pandas and python scraping
 
-# Do I have access?
+## Pipenv
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+## Jupyter notebook
+Activate the virtual enviroment and run:
+```
+jupyter notebook
+```  
