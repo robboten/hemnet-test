@@ -2,7 +2,11 @@
 Just some tests to learn about pandas and python scraping
 
 ## Pipenv
-To activate this project's virtualenv, run pipenv shell.
+To activate this project's virtualenv, run:
+```
+pipenv shell
+```
+
 Alternatively, run a command inside the virtualenv with pipenv run.
 
 ## Jupyter notebook
