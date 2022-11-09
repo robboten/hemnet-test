@@ -30,6 +30,13 @@ with open("./configs/area_ids.yaml", "r") as stream:
 # Varible to keep the count of the listings.    
 listings_count = 0
     
+params= {}
+payload={}
+
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+
 # Loop thruogh all the areas one by one
 for area in area_info:
     area_code = area_info[area]["area_code"]
@@ -44,17 +51,6 @@ for area in area_info:
         "living_area_min":0,
         "new_construction":"include"
     }
-    payload={}
-    headers = {"User-Agent": "Mozilla/5.0"
-    }
-
-    response = requests.request(
-        "GET",
-        url,
-        headers=headers,
-        data=payload,
-        params=params
-    )
 
     soup = BeautifulSoup(response.content, "html.parser")
     map_results=soup.find(id="results-map")
@@ -62,13 +58,6 @@ for area in area_info:
     json_data=json.loads(initial_data)
 
     url = "https://www.hemnet.se/bostader/search/"+json_data["search_key"]
-
-    params= {}
-    payload={}
-
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
 
     response = requests.request(
         "GET",
