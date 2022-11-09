@@ -9,6 +9,9 @@ jupyter = "*"
 pandas = "*"
 lxml = "*"
 matplotlib = "*"
+pyyaml = "*"
+pyarrow = "*"
+fastparquet = "*"
 
 [dev-packages]
 
