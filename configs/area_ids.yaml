@@ -1,11 +1,17 @@
+norra_djurgarden:
+  area_code: "473397"
+
 gardet: 
   area_code: "898475"
+
+hjorthagen:
+  area_code: "473369"
 
 kungsholmen:
   area_code: "925968"
 
-norrad_jurgarden:
-  area_code: "473397"
+ostermalm:
+  area_code: "473448"
 
 stora_essingen: 
   area_code: "473422"
@@ -13,8 +19,8 @@ stora_essingen:
 lilla_essingen:
   area_code: "473386"
 
-ostermalm:
-  area_code: "473448"
+sodermalm:
+  area_code: "898472"
 
 vasastan: 
   area_code: "925970"
@@ -22,11 +28,11 @@ vasastan:
 norrmalm:
   area_code: "925969"
 
-hjorthagen:
-  area_code: "473369"
-
 sundbyberg:
   area_code: "18042"
 
 solna:
   area_code: "18028"
+
+gamla_stan:
+  area_code: "473362"
