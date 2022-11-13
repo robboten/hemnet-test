@@ -12,6 +12,10 @@ matplotlib = "*"
 pyyaml = "*"
 pyarrow = "*"
 fastparquet = "*"
+pyaml = "*"
+google = "*"
+install = "*"
+google-cloud-storage = "*"
 
 [dev-packages]
 

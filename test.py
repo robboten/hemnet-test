@@ -41,7 +41,7 @@ headers = {
 for area in area_info:
     area_code = area_info[area]["area_code"]
     
-    # Start the process of scaring
+    # Start the process of scraping
     url = "https://www.hemnet.se/bostader"
     params= {
         "housing_form_groups":"apartments",

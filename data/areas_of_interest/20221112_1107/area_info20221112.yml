@@ -1,0 +1,28 @@
+gamla_stan:
+  area_code: '473362'
+  listings: 7
+gardet:
+  area_code: '898475'
+hjorthagen:
+  area_code: '473369'
+kungsholmen:
+  area_code: '925968'
+lilla_essingen:
+  area_code: '473386'
+norra_djurgarden:
+  area_code: '473397'
+norrmalm:
+  area_code: '925969'
+ostermalm:
+  area_code: '473448'
+sodermalm:
+  area_code: '898472'
+solna:
+  area_code: '18028'
+stora_essingen:
+  area_code: '473422'
+sundbyberg:
+  area_code: '18042'
+total_listings: 7
+vasastan:
+  area_code: '925970'
