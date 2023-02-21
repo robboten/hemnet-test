@@ -2,7 +2,7 @@
 
 This repository contains a codebase for a web scraping application that collects data from Hemnet, a popular real estate website in Sweden.
 
-The application is built using Python 3 and the Scrapy web crawling framework. It collects data such as property details, pricing, and location information for all listings on Hemnet.
+The application is built using Python 3, beautiful soup and pandas. It collects data such as property details, pricing, and location information for all listings on Hemnet.
 
 ## Getting Started
 
